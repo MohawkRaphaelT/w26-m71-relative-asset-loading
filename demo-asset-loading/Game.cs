@@ -10,10 +10,10 @@ namespace MohawkGame2D
     /// </summary>
     public class Game
     {
-        // Place your variables here:
-        Texture2D characters = Graphics.LoadTexture("C:\\Users\\000906269\\source\\repos\\w26-m71-relative-asset-loading\\assets\\graphics\\characters.gif");
-        Sound sound = Audio.LoadSound("C:\\Users\\000906269\\source\\repos\\w26-m71-relative-asset-loading\\assets\\audio\\sound.wav");
-        Sound target = Audio.LoadSound("C:\\Users\\000906269\\source\\repos\\w26-m71-relative-asset-loading\\assets\\audio\\target.ogg");
+        // Each ../ backs out one folder until we are in the git repository root directory
+        Texture2D characters = Graphics.LoadTexture("../../../../assets/graphics/characters.gif");
+        Sound sound = Audio.LoadSound("../../../../assets/audio/sound.wav");
+        Sound target = Audio.LoadSound("../../../../assets/audio/target.ogg");
 
         /// <summary>
         ///     Setup runs once before the game loop begins.
